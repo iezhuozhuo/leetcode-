@@ -1,6 +1,6 @@
 ---
-description: 本gitbook是用于记录本人刷题使用，生命不息刷题不止~~~
+description: 生命不息，刷题不止！！！
 ---
 
-# Introduction
+# LeetCode刷题记
 

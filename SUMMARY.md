@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [LeetCode刷题记](README.md)
 * [141 环形链表](141.md)
 
