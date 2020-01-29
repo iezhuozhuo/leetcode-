@@ -113,6 +113,7 @@
 * [offer11 旋转数组中找最小值](offer11.md) 
 * [offer12 矩阵路径](offer12.md) 
 * [offer13 机器人运动范围](offer13.md) 
+* [offer18 删除链表中重复元素](offer18.md) 
 * [offer26 树的子结构](offer26.md) 
 * [offer31 进栈顺序与出栈顺序](offer31.md) 
 * [offer32 之字形打印二叉树](offer32.md) 
