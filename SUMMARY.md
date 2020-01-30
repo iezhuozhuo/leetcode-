@@ -1,6 +1,7 @@
 # Table of contents
 
 * [莫问收获，但问耕耘](README.md)
+
 * [LeetCode刷题记](leetcode-shua-ti-ji.md)
   * [1 两数之和](1.md)
   * [2 两数相加](2.md)
@@ -109,7 +110,13 @@
   * [629 k个逆序对数组](629.md)
   * [647 回文子串](647.md)
   * [739 每日温度](739.md)
+  
 * [剑指offer刷题记](jian-zhi-offer-shua-ti-ji.md)
+  
+  - [offer3 数组中重复数字](offer3.md) 
+  
+  - [offer4 二维数组的查找](offer4.md) 
+  
   * [offer6 从尾到头打印链表](offer6.md)
   * [offer 8 二叉树的下一个节点](offer8.md)
   * [offer11 旋转数组中找最小值](offer11.md)
