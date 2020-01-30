@@ -1,6 +1,6 @@
 ---
-description: 生命不息，刷题不止！！！
+description: 滚去刷题吧~~~~
 ---
 
-# LeetCode刷题记
+# 我们的天空，我们的刷题
 
