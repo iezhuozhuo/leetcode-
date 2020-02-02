@@ -114,8 +114,8 @@
 * [剑指offer刷题记](jian-zhi-offer-shua-ti-ji.md)
   
   - [offer3 数组中重复数字](offer3.md) 
-  
   - [offer4 二维数组的查找](offer4.md) 
+  - [offer5 替换空格](offer5.md) 
   
   * [offer6 从尾到头打印链表](offer6.md)
   * [offer 8 二叉树的下一个节点](offer8.md)
