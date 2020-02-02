@@ -1,5 +1,5 @@
 ---
-description: 生命不息，刷题不止！！！
+description: 刷出个通天大道宽又广！！！
 ---
 
 # 剑指offer刷题记
