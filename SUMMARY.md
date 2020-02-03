@@ -118,6 +118,7 @@
   - [offer5 替换空格](offer5.md) 
   
   * [offer6 从尾到头打印链表](offer6.md)
+  * [offer7 重建二叉树](offer7.md) 
   * [offer 8 二叉树的下一个节点](offer8.md)
   * [offer11 旋转数组中找最小值](offer11.md)
   * [offer12 矩阵路径](offer12.md)
