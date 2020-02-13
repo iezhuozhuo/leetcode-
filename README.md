@@ -137,3 +137,27 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 [面试题20](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/offer20.md) 、[65 有效的数字](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/65.md)、[8 字符转换为整数](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/8.md)
 
+**19.调整奇数在偶数前面**
+
+> 双指针以及辅助栈或者数组
+
+[面试题21](offer21.md) 
+
+**20.链表中倒数第K个节点**
+
+> 寻找倒数第K个节点和删除倒数第K个节点的区别。
+
+[面试题22](offer22.md) 
+
+**21.链表中环的入口**
+
+> 快慢指针法：先判断是否有环然后寻找环的入口。`Floyd`算法的推导熟记。
+
+[面试题23](offer23.md) 、[141 环形链表](141.md) 、[142 环形链表 II](142.md)
+
+**22.反转链表**
+
+> 基础题直接手撸，重点是扩展题K个一组反转链表(多画图)。
+
+[面试题24](offer24.md) 、[206 反转链表](206.md) 、 [629 k个逆序对数组](629.md) 
+
