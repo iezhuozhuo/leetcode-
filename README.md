@@ -137,5 +137,3 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 [面试题20](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/offer20.md) 、[65 有效的数字](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/65.md)、[8 字符转换为整数](https://github.com/iezhuozhuo/leetcode-/tree/e2a24c7782b3dbe157705f2b09ff5071caa8733c/8.md)
 
-**19.Test my Gitbook**
-
