@@ -1,5 +1,5 @@
 ---
-description: leetcode和剑指的代码总结
+description: Leetcode和剑指的代码总结
 ---
 
 # Code
