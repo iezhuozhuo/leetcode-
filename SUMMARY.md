@@ -149,5 +149,4 @@
   * [offer32 之字形打印二叉树](offer32.md)
   * [offer35 复杂链表的复制](offer35.md)
   * [offer36 二叉搜索树转双向链表](offer36.md)
-  * [offer52 两个链表的第一个公共节点](offer52.md)
-
+  * [offer52 两个链表的第一个公共节点](offer52.md) 
