@@ -1,6 +1,7 @@
 # Table of contents
 
 * [莫问收获，但问耕耘](README.md)
+
 * [LeetCode刷题记](leetcode-shua-ti-ji.md)
 
   * [1 两数之和](1.md)
@@ -232,5 +233,35 @@
   * [647 回文子串](647.md)
 
   * [739 每日温度](739.md)
+
 * [剑指offer刷题记](jian-zhi-offer-shua-ti-ji.md)
-  * none
+
+  * [offer3 数组中重复数字](offer3.md) 
+  * [offer4 二维数组的查找](offer4.md) 
+  * [offer5 替换空格](offer5.md) 
+
+  * [offer6 从尾到头打印链表](offer6.md)
+  * [offer7 重建二叉树](offer7.md) 
+  * [offer 8 二叉树的下一个节点](offer8.md)
+  * [offer9 两个栈实现一个队列](offer9.md) 
+  * [offer10 斐波那契数列](offer10.md) 
+  * [offer11 旋转数组中找最小值](offer11.md)
+  * [offer12 矩阵路径](offer12.md)
+  * [offer13 机器人运动范围](offer13.md)
+  * [offer14 剪绳子](offer14.md)
+  * [offer15 二进制中1的个数](offer15.md) 
+  * [offer16 数值的整数次方](offer16.md) 
+  * [offer17 打印从1到最大n位数](offer17.md) 
+  * [offer18 删除链表中重复元素](offer18.md)
+  * [offer19 正则表达式](offer19.md)
+  * [offer20 表示数值的字符串](offer20.md) 
+  * [offer22 删除倒数第K个节点](offer22.md)
+  * [offer23 环形链表](offer23.md)
+  * [offer24 反转链表](offer24.md)
+  * [offer25 合并两个排序链表](offer25.md)
+  * [offer26 树的子结构](offer26.md)
+  * [offer31 进栈顺序与出栈顺序](offer31.md)
+  * [offer32 之字形打印二叉树](offer32.md)
+  * [offer35 复杂链表的复制](offer35.md)
+  * [offer36 二叉搜索树转双向链表](offer36.md)
+  * [offer52 两个链表的第一个公共节点](offer52.md)
