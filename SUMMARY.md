@@ -140,6 +140,8 @@
 * [offer24 反转链表](offer24.md) 
 * [offer25 合并两个排序链表](offer25.md) 
 * [offer26 树的子结构](offer26.md) 
+* [offer27 二叉树镜像](offer27.md) 
+* [offer28 对称的二叉树](offer28.md) 
 * [offer31 进栈顺序与出栈顺序](offer31.md) 
 * [offer32 之字形打印二叉树](offer32.md) 
 * [offer35 复杂链表的复制](offer35.md) 
