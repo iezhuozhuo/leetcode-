@@ -4,9 +4,17 @@
 
 ### 解题思路
 
+#### 之字形打印
+
 利用两个栈，广度优先遍历交替压栈出栈。
 
+#### 按行输出
+
+一个size解决
+
 ### 本题代码
+
+#### 之字形打印
 
 ```c++
 class Solution {
@@ -49,5 +57,35 @@ public:
 };
 ```
 
-### [手撸测试](<https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking>) 
+#### 按行输出
+
+```c++
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        if(!root)
+            return vector<vector<int>>();
+        queue<TreeNode*>q;
+        q.push(root);
+        vector<vector<int>>res;
+        while(!q.empty()){
+            int size = q.size();
+            vector<int>data;
+            for(int i = 0;i < size;i++){
+                TreeNode* node = q.front();
+                q.pop();
+                data.push_back(node->val);
+                if(node->left)
+                    q.push(node->left);
+                if(node->right)
+                    q.push(node->right);
+            }
+            res.push_back(data);
+        }
+        return res;
+    }
+};
+```
+
+### [手撸测试](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)  
 
