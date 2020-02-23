@@ -150,4 +150,6 @@
 * [offer34 二叉树中和为某一值的路径](offer34.md) 
 * [offer35 复杂链表的复制](offer35.md) 
 * [offer36 二叉搜索树转双向链表](offer36.md) 
+* [offer37 序列化二叉树](offer37.md) 
+* [offer38 字符串的排列](offer38.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
