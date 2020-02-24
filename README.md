@@ -238,3 +238,20 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 > 基础手撸题，注意输入给的`string`是否有重复项。
 
 [面试题38](offer38.md) 
+
+**37.数组中出现次数超过一半的数字**
+
+> 摩尔投票法；此外还有诸如超过`1/k`的等。
+
+[面试题39](offer39.md) 
+
+**38.最小的k个数**
+
+> 巧妙的使用优先级队列；
+>
+> ```c++
+> priority_queue<int, vector<int>, less<int>>;//大根堆
+> priority_queue<int, vector<int>, great<int>>;//小根堆
+> ```
+
+[面试题40](offer40.md)  

@@ -152,4 +152,6 @@
 * [offer36 二叉搜索树转双向链表](offer36.md) 
 * [offer37 序列化二叉树](offer37.md) 
 * [offer38 字符串的排列](offer38.md) 
+* [offer39 数组中出现次数超过一半的数字](offer39.md) 
+* [offer40 最小的k个数](offer40.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
