@@ -162,4 +162,5 @@
 * [offer42 连续子数组的最大和](offer42.md) 
 * [offer43 1~n整数中1的个数](offer43.md) 
 * [offer45 把数组排成最小的数](offer45.md) 
+* [offer47 礼物最大价值](offer47.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
