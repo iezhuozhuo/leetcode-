@@ -11,26 +11,24 @@
 ```c++
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        if(prices.size() < 2)
+    int respace(vector<string>& dictionary, string sentence) {
+        if(sentence.size() == 0)
             return 0;
-        vector<int>hold(prices.size(), 0);
-        vector<int>unhold(prices.size(), 0);
-        hold[0] = -prices[0];
-        hold[1] = max(-prices[0], -prices[1]);
-        unhold[1] = max(0, prices[1] - prices[0]);
-        if(prices.size() == 2)
-            return max(hold[1], unhold[1]);
-        int res = INT_MIN;
-        for(int i = 2;i < prices.size();i++){
-            hold[i] = max(unhold[i - 2] - prices[i], hold[i - 1]);
-            unhold[i] = max(unhold[i - 1], hold[i - 1] + prices[i]);
-            res = max(res, max(hold[i], unhold[i]));
+        vector<int>dp(sentence.size()+1, 0);
+        for(int i = 1;i <= sentence.size();i++){
+            dp[i] = dp[i-1] + 1;
+            for(int j = 0;j < dictionary.size();j++){
+                int len = dictionary[j].size();
+                if(i >= len){
+                    if(sentence.substr(i-len, len) == dictionary[j])
+                        dp[i] = min(dp[i], dp[i-len]);
+                }
+            }
         }
-        return res;
+        return dp[sentence.size()];
     }
 };
 ```
 
-### [手撸测试](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)  
+### [手撸测试](https://leetcode-cn.com/problems/re-space-lcci/)   
 
