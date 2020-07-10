@@ -180,6 +180,7 @@
 * [offer47 礼物最大价值](offer47.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
 * [offer57 和为S的连续正整数序列](offer57-II.md) 
+* [interview 17-13](interview17-13.md) 
 * [Kingdom-01-06 字符串压缩](01-06.md)      
 * [工具包 放苹果](placeApple.md) 
 * [工具包 背包问题](背包框架.md)  
