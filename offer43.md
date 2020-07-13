@@ -4,7 +4,7 @@
 
 ### 解题思路
 
-两种解法，第一种是爆搜，即从`1~n`统计每一个数字中`1`出现的个数相加；第二种需要巧妙的观察：![](pic/offer43-1.png)
+三种解法，第一种是爆搜，即从`1~n`统计每一个数字中`1`出现的个数相加；第二种需要巧妙的观察：![](pic/offer43-1.png)
 
 举例子如：![](pic/offer43-2.png)
 
@@ -12,7 +12,11 @@
 
 ![](pic/offer43-3.png)
 
+第三种解法是第二种解法的优化，一共考虑输入`n`位数次。将一个数分成三段：`heigh`、`low`、`mid`，如43521，如果`mid`是5，那么`heigh`是43，`low`是21。当`mid`>1那么有1的个数就是`heigh+1`*pow(10,位数-1)次，如果`mid`==1,那么`heigh`\*pow(10, 位数-1)+low+1;如果`mid`\==0，那么`heigh`\*pow(10,位数-1)。起始的bit为1，位数(count)为0.
+
 ### 本题代码
+
+#### 解法二
 
 ```c++
 class Solution {
@@ -59,6 +63,44 @@ public:
     }
 };
 ```
+
+#### 解法三：
+
+```c++
+class Solution {
+public:
+    int countDigitOne(int n) {
+        int count = 0, res = 0;
+        int bit = 1;
+        long low = 1, mid = 1, heigh = 1;
+        int num;
+        while(heigh != 0){
+            low = n % bit;
+            mid = (n / bit) % 10;
+            
+            // 防止溢出
+            if(bit >= 1000000000)
+                heigh = 0;
+            else{
+                heigh = n / (bit * 10);
+                bit *= 10;
+            }
+            
+            if(mid > 1)
+                num = (heigh + 1) * pow(10, count);
+            else if(mid == 0)
+                num = (heigh - 1 + 1) * pow(10, count);
+            else
+                num = heigh * pow(10, count) + low + 1;
+            res += num;
+            count += 1; 
+        }
+        return res;
+    }
+};
+```
+
+
 
 ### [手撸测试](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)  
 
