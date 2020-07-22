@@ -9,22 +9,18 @@
 ```c++
 class Solution {
 public:
-    // Parameters:
-    //        numbers:     an array of integers
-    //        length:      the length of array numbers
-    //        duplication: (Output) the duplicated number in the array number
-    // Return value:       true if the input is valid, and there are some duplications in the array number
-    //                     otherwise false
-    bool duplicate(int numbers[], int length, int* duplication) {
-        for(int i = 0;i < length;i++){
-            int index = numbers[i] % length;
-            if(numbers[index] >= length){
-                *duplication = index;
-                return true;
+    int findRepeatNumber(vector<int>& nums) {
+        for(int i = 0;i < nums.size();i++){
+            while(nums[i] != i && nums[i] != nums[nums[i]]){
+                int temp = nums[i];
+                nums[i] = nums[temp];
+                nums[temp] = temp;
             }
-            numbers[index] += length;
         }
-        return false;
+        for(int i = 0;i < nums.size();i++)
+            if(nums[i] != i)
+                return nums[i];
+        return -1;
     }
 };
 ```
