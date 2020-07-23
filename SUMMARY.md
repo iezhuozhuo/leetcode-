@@ -182,7 +182,7 @@
 * [offer38 字符串的排列](offer38.md) 
 * [offer39 数组中出现次数超过一半的数字](offer39.md) 
 * [offer40 最小的k个数](offer40.md) 
-* [offer41 数据流中的中位数](offer42.md) 
+* [offer41 数据流中的中位数](offer41.md) 
 * [offer42 连续子数组的最大和](offer42.md) 
 * [offer43 1~n整数中1的个数](offer43.md) 
 * [offer45 把数组排成最小的数](offer45.md) 
