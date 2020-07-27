@@ -202,6 +202,7 @@
 * [offer59 滑动窗口最大值 I](offer59-i.md) 
 * [offer60 n个骰子的点数](offer60.md) 
 * [offer61 扑克牌中的顺子](offer61.md) 
+* [offer62 圆圈中最后剩下的数字](offer62.md) 
 * [offer63 股票的最大利润](offer63.md) 
 * [interview 17-13 恢复空格](interview17-13.md) 
 * [interview 01-06 字符串压缩](interview01-06.md)      
