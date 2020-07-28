@@ -1,6 +1,6 @@
 ### 题目要求
 
-![](pic/offer56-ii.png)
+![](pic/offer56-II.png)
 
 ### 解题思路
 
