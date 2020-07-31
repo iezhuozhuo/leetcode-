@@ -194,6 +194,7 @@
 * [offer45 把数组排成最小的数](offer45.md) 
 * [offer47 礼物最大价值](offer47.md) 
 * [offer48 最长不含重复的子字符串](offer48.md) 
+* [offer49 丑数](offer49.md) 
 * [offer50 第一次只出现一次的字符](offer50.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
 * [offer53 在排序数组中查找数字 I](offer53-i.md) 
