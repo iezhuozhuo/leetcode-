@@ -206,6 +206,7 @@
 * [offer61 扑克牌中的顺子](offer61.md) 
 * [offer62 圆圈中最后剩下的数字](offer62.md) 
 * [offer63 股票的最大利润](offer63.md) 
+* [offer67 字符串转换成整数](offer67.md) 
 * [interview 17-13 恢复空格](interview17-13.md) 
 * [interview 01-06 字符串压缩](interview01-06.md)      
 * [LCP 13 寻宝](lcp13.md) 
