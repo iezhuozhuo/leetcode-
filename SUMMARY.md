@@ -193,6 +193,7 @@
 * [offer44 数字序列中某一位的数字](offer44.md) 
 * [offer45 把数组排成最小的数](offer45.md) 
 * [offer47 礼物最大价值](offer47.md) 
+* [offer48 最长不含重复的子字符串](offer48.md) 
 * [offer52 两个链表的第一个公共节点](offer52.md)  
 * [offer53 在排序数组中查找数字 I](offer53-i.md) 
 * [offer53 0~n-1中缺失的数字 II](offer53-ii.md) 
