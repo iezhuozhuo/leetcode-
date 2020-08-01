@@ -11,35 +11,42 @@
 ```c++
 class Solution {
 public:
-    bool isNumeric(char* string)
-    {
-        bool sign = false, dot = false, hase = false;
-        for(int i = 0;i < strlen(string);i++){
-            if(string[i] == 'e' || string[i] == 'E'){
-                if(i == strlen(string) - 1)
-                    return false;
-                if(hase)
-                    return false;
-                hase = true;
+    bool isNumber(string s) {
+        if(s.size() == 0)
+            return false;
+        int i = 0;
+        while(i < s.size() && s[i] == ' ')
+            i++;
+        if(i < s.size() && (s[i] == '-' || s[i] == '+'))
+            i++;
+        int nd = 0, np = 0;
+        while(i < s.size()){
+            if(s[i] == '.')
+                np++;
+            else if(s[i] - '0' >= 0 && s[i] - '0' <= 9)
+                nd++;
+            else
+                break;
+            i++;
+        }
+        if(nd == 0 || np > 1)
+            return false;
+        if(s[i] == 'e'){
+            i++;
+            nd = 0;
+            if(i < s.size() && (s[i] == '-' || s[i] == '+'))
+                i++;
+            while(i < s.size() && (s[i] - '0' >= 0 && s[i] - '0' <= 9)){
+                i++;
+                nd++;
             }
-            else if(string[i] == '+' || string[i] == '-'){
-                if(sign && string[i - 1] != 'e' && string[i - 1] != 'E')
-                    return false;
-                if(!sign && i > 0 && string[i - 1] != 'e' && string[i - 1] != 'E')
-                    return false;
-                sign = true;
-            }
-            else if(string[i] == '.'){
-                if(i == 0 || hase || dot)
-                    return false;
-                dot = true;
-            }
-            else if(string[i] < '0' || string[i] > '9')
+            if(nd == 0)
                 return false;
         }
-        return true;
+        while(s[i] == ' ')
+            i++;
+        return i == s.size();
     }
-
 };
 ```
 
