@@ -4,19 +4,45 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 # 莫问收获，但问耕耘
 
-## 愿
-
-我希望我的刷题过程可以如下所述：
+## 愿 不负如来不负卿
 
 老僧三十年前未参禅时，见山是山，见水是水。及至后来，亲见知识，有个入处，见山不是山，见水不是水。而今得个体歇处，依前见山只是山，见水只是水。
 
-终有一天，我愿不负如来不负卿！
+## 分类型
+
+### 滑动窗口+指针系列
+
+#### 思路
+
+核心参考：[labuladong - 滑动窗口算法通用思想](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/) 。具体的范式是：
+
+> 已知条件：目标串A，模式串B，求A中符合对B一些限定规则的字串或者对A一些限定规则的结果。
+>
+> 套路：双指针+窗口，right往右走，要是[left, right]满足要求即得到一个窗口，left往右走缩减窗口，每次缩减更新结果，直到窗口不满足要求，right继续往右走，直到遍历完A。
+
+#### 练手题目
+
+#### [3.无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [30.串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) [76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) [209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) [632.最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) 
+
+### 拓扑排序
+
+#### 思路
+
+核心参考 [leetcode 207](207.md) 。有向图的遍历：如果有环，遍历结束之后入度为0的节点多于总节点数；没有环，则存在不止一种拓扑排序结果。
+
+> 套路是对有向图的遍历，$$BFS$$ 很靠谱(每次压入入度为0的node)。
+>
+> 先构建图节点的入度(多少节点是到达本节点)以及各个节点相邻的边(可以是简单的点对应的vector也可以是复杂的graph节点)，然后将入度为0的节点压入queue遍历(广度优先)，最终所有入度为0的节点=节点个数，那么改 G 具有拓扑排序。 
+
+#### 练手题目
+
+#### [207.课程表](https://leetcode-cn.com/problems/course-schedule/) [210.课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) 
 
 ## 剑指offer
 
-剑指offer系列很多题与前面的leetcode重复，因此题解很简陋可参考前面题解。
+剑指offer系列很多题与前面的 leetcode 重复，因此题解很简陋可参考前面题解。
 
-**1.数组中重复的数组及相关题**
+**1.数组中重复的数及相关题**
 
 > 可以考虑的解法有：排序\(桶排序\)、异或，二分法，模拟环法\(不常用\)。
 
