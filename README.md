@@ -38,6 +38,18 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 #### [207.课程表](https://leetcode-cn.com/problems/course-schedule/) [210.课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) 
 
+### 回文字符串
+
+#### 思路
+
+马拉车算法以及中心扩展法。
+
+中心扩展法的核心是从某一个index向两边扩展代码形式是func(s, index, index)以及func(s, index, index+1)。参考leetcode5以及leetcode647.
+
+#### 练手题目
+
+#### [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) [125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) [336.回文对](https://leetcode-cn.com/problems/palindrome-pairs/) [409.最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) 
+
 ## 剑指offer
 
 剑指offer系列很多题与前面的 leetcode 重复，因此题解很简陋可参考前面题解。
