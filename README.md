@@ -50,6 +50,16 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 #### [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) [125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) [336.回文对](https://leetcode-cn.com/problems/palindrome-pairs/) [409.最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) 
 
+### 字典序
+
+#### 思路
+
+暂时没更新...待续
+
+#### 练手题
+
+[440 字典序的第k小的数](440.md) 
+
 ## 剑指offer
 
 剑指offer系列很多题与前面的 leetcode 重复，因此题解很简陋可参考前面题解。
