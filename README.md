@@ -22,7 +22,7 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 #### 练手题目
 
-#### [3.无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [30.串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) [76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) [209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) [632.最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) 
+[3.无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [30.串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) [76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) [209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) [632.最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) 
 
 ### 拓扑排序
 
@@ -36,7 +36,7 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 #### 练手题目
 
-#### [207.课程表](https://leetcode-cn.com/problems/course-schedule/) [210.课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) 
+[207.课程表](https://leetcode-cn.com/problems/course-schedule/) [210.课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) 
 
 ### 回文字符串
 
@@ -48,7 +48,7 @@ description: 桃李春风一杯酒，江湖夜雨十年灯
 
 #### 练手题目
 
-#### [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) [125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) [336.回文对](https://leetcode-cn.com/problems/palindrome-pairs/) [409.最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) 
+ [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) [125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) [336.回文对](https://leetcode-cn.com/problems/palindrome-pairs/) [409.最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) 
 
 ### 字典序
 
