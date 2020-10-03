@@ -266,6 +266,7 @@
 * [interview 17-13 恢复空格](interview17-13.md) 
 * [interview 01-06 字符串压缩](interview01-06.md)      
 * [LCP 13 寻宝](lcp13.md) 
+* [LCP 19 秋叶收藏集](lcp19.md)
 * [工具包 放苹果](放苹果框架.md)  
 * [工具包 背包问题](背包框架.md)  
 * [工具包 并查集](union-find.md) 
